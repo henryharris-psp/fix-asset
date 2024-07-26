@@ -12,9 +12,6 @@ module.exports = {
     port: 3000,
     open: true,
     setupMiddlewares: (middlewares, devServer) => {
-      // Custom middleware logic can go here
-      // Example: devServer.app.use((req, res, next) => { next(); });
-
       return middlewares;
     },
   },
